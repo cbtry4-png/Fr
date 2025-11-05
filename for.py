@@ -11,7 +11,7 @@ import base64
 import time
 import json
 from io import BytesIO
-import webbrowser
+#import webbrowser
 import lzma
 import zlib
 import codecs
@@ -69,7 +69,7 @@ try:
   from cfonts import render, say
 except:
     os.system('pip install python-cfonts')
-webbrowser.open("")
+#webbrowser.open("")
 import requests
 import os
 from datetime import datetime
